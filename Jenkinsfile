@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps { 
-        sh 'docker build asadz31/node-app .'
+        sh 'docker build .'
       } 
     }
     stage('Login') {
